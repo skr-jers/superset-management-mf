@@ -1,0 +1,33 @@
+export interface IUser {
+    userId: number
+    userTypeId: number
+    userType: string
+    maritalStatusId: number
+    customerId: number
+    name: string
+    primaryLastName: string
+    secondaryLastName?: string
+    gender?: string
+    birthdate?: string
+    username: string
+    password: any
+    completeName: any
+    updatePassword: boolean
+    entryDate: string
+    employeeNumber?: string
+    rfc: string
+    movementTypeId: any
+    movementType: any
+    inciseId: any
+    defineDoc: any
+    status: string
+    emails: any
+    imageProfile: any
+    emailList: any
+    customerList: any
+    grouperList: any
+    lineBusinessList: any
+    medicalProviderList: any
+    userConfigurationType: number
+    bailTypeList: any
+  }
